@@ -22,3 +22,24 @@ header h1 {
 header p {
     color: black;
 }
+
+form {
+    position: absolute;
+    top: 20%;
+    left: 57%;
+}
+
+form a {
+    text-decoration: none;
+    color: #1977F2;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#log-in {
+    background-color: #1977F2;
+}
+
+#new-account {
+    background-color: #42B729;
+}
