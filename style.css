@@ -27,6 +27,9 @@ form {
     position: absolute;
     top: 20%;
     left: 57%;
+    background-color: white;
+    width: 380px;
+    height: 280px;
 }
 
 form a {
@@ -34,6 +37,14 @@ form a {
     color: #1977F2;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+form input {
+    margin-top: 18px;
+    margin-left: 22px;
+    /* margin: 10px; */
+    padding: 13px 18px;
+    width: 75%;
 }
 
 #log-in {
