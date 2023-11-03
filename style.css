@@ -1,6 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
 }
 
 body {
@@ -9,10 +12,9 @@ body {
 
 header {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 14%;
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 header h1 {
@@ -25,32 +27,88 @@ header p {
 
 form {
     position: absolute;
-    top: 20%;
+    top: 23%;
     left: 57%;
     background-color: white;
     width: 380px;
-    height: 280px;
-}
+    height: 340px;
+    border-radius: 10px;
+    box-shadow: 1px 11px 19px 7px #d6dee6;
 
-form a {
-    text-decoration: none;
-    color: #1977F2;
-    font-family: Arial, Helvetica, sans-serif;
+
     
 }
+
 
 form input {
     margin-top: 18px;
     margin-left: 22px;
-    /* margin: 10px; */
     padding: 13px 18px;
     width: 75%;
+    border: 1px solid #dddfe2;    
+    border-radius: 6px;
+    font-size: 20px;
 }
 
+form input:focus {
+    outline: none;
+    border:1px solid #1A73E3;
+}
+
+
+ #footer-text{
+    position: absolute;
+    top: 71%;
+    left: 58%;
+    
+}
+
+#footer-text a{
+    color: black;
+}
+
+.links {
+    text-align: center;
+    width: 92%; 
+     
+}
+
+
+
 #log-in {
-    background-color: #1977F2;
+    background-color: #0765FF;
+    margin-top: 16px;
+    padding: 10px;
+    margin-left: 22px;
+    border-radius: 7px;
+}
+
+#log-in a {
+    color: white;
+    font-size: 20px;
+   
+}
+
+#forgotten-password {
+    margin-top: 18px;
+    margin-bottom: 10px;
+
+}
+
+#forgotten-password a {
+    color: #1977F2;
 }
 
 #new-account {
     background-color: #42B729;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 7px;
+    width: 50%;
+    margin-left: 87px;
+    
+}
+
+#new-account a {
+    color: white;
 }
